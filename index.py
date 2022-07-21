@@ -10,10 +10,24 @@ def game():
     t = turtle.Turtle()
     s = turtle.getscreen()
 
-    draw_rectangle(t, 10, 10, 90, 90, 90, "blue", "yellow")
-    draw_diamond(t, -80, 10, 90, 120, "black", "silver")
-    draw_triangle(t, 50, 10, 90, 0, "green", "red")
 
+    draw_circle(t, 90, 40, 40, 360, 60, 20, "blue", "yellow")
+    draw_circle(t, 270, -60, 40, 180, 40, 20, "red", "green")
+    draw_rectangle(t, 25, -110, 90, 90, 90, "blue", "yellow")
+    draw_diamond(t, 0, -110, 90, 120, "black", "silver")
+    draw_triangle(t, -65, -120, 40, 0, "green", "red")
+
+def draw_circle(t, tilt, x, y, ext, rad, step, pencolor, fillcolor):
+    #Draws a circle, x, and y determine its start location, extent determines how much of the shape is drawn.
+    t.setheading(tilt)
+    t.up()
+    t.goto(x, y)
+    t.down()
+    t.color(pencolor, fillcolor)
+    t.begin_fill()
+    t.circle(rad, extent=ext, steps=step)
+    t.end_fill()
+    t.up()
 
 def draw_rectangle(t, x, y, height, width, tilt, pencolor, fillcolor):
     #Draws a basic Rectangle
@@ -61,6 +75,8 @@ def draw_diamond(t, x, y, length, tilt, pencolor, fillcolor):
         t.left(60)
     t.end_fill()
     t.up()
+
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
