@@ -1,0 +1,40 @@
+Game Name: 
+
+Game Races: 
+Snowpeople 
+Owl people 
+leopard people 
+fish people 
+
+Game Classes:
+Christians
+Jews
+Muslims
+Zoroastrians
+
+
+
+
+
+fighting/interaction system: 
+Weapons: 
+Sword 
+Shield 
+Wand 
+Shovel
+Spiritual tools (alternative to fighting): 
+Scriptures
+Pamphlets
+Word attack (Scales with leveling or study)
+Sacred artifacts
+Mentors (influencing floating creatures, etc.)
+
+
+
+Story/objective: 
+Set in a world of religious discussion, seeking to understand the truth about religion.
+Defeat opposing faiths.
+
+
+
+Map ideas: Areas representing various forms of worship, each area will have religious figureheads based on different faiths. 
