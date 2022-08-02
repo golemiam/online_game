@@ -17,7 +17,7 @@ def game():
     draw_diamond(t, 0, -110, 90, 120, "black", "silver")
     draw_triangle(t, -65, -120, 40, 0, "green", "red")
     draw_circle(t, x + 60, y + 14, 3, 'silver', 'black')
-    draw_scene(t, 1, "silver"
+    draw_scene(t, 1, "silver")
     
 def draw_scene(t, scale, blade):
     draw_sword(t, 0, -120, 100, 30, 30, 90, 1, blade)
