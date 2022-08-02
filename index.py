@@ -11,14 +11,14 @@ def game():
     s = turtle.getscreen()
 
 
-    draw_circle(t, 90, 40, 40, 360, 60, 20, "blue", "yellow")
-    draw_circle(t, 270, -60, 40, 180, 40, 20, "red", "green")
-    draw_rectangle(t, 25, -110, 90, 90, 90, "blue", "yellow")
-    draw_diamond(t, 0, -110, 90, 120, "black", "silver")
-    draw_triangle(t, -65, -120, 40, 0, "green", "red")
-    draw_circle(t, x + 60, y + 14, 3, 'silver', 'black')
+    #draw_circle(t, 90, 40, 40, 360, 60, 20, "blue", "yellow")
+    #draw_circle(t, 270, -60, 40, 180, 40, 20, "red", "green")
+    #draw_rectangle(t, 25, -110, 90, 90, 90, "blue", "yellow")
+    #draw_diamond(t, 0, -110, 90, 120, "black", "silver")
+    #draw_triangle(t, -65, -120, 40, 0, "green", "red")
     draw_scene(t, 1, "silver")
-    
+
+
 def draw_scene(t, scale, blade):
     draw_sword(t, 0, -120, 100, 30, 30, 90, 1, blade)
 
@@ -35,29 +35,20 @@ def draw_sword(t, x, y, height, width, side, tilt, scale, blade):
     """
     t.setheading(tilt)
 
+    draw_diamond(t, x, (y + 280) * scale, side * scale, 120, "black", blade)
+    draw_trapezoid(t, x * scale, (y + 280) * scale, side * scale, blade, 'black', scale)
+    draw_trapezoid2(t, (x - 30) * scale, (y + 280) * scale, side * scale, blade, 'black', scale)
+    draw_rectangle(t, (x - 65) * scale, (y + 24) * scale, width * scale, height * scale, 0, 'black', '#7B3F00')
+    draw_rectangle(t, (x + 35) * scale, (y + 24) * scale, (width - 70) * scale, (height - 25) * scale, 90, 'black', '#7B3F00')
+    draw_rectangle(t, (x - 105) * scale, (y + 24) * scale, (width - 70) * scale, (height - 25) * scale, 90, 'black', '#7B3F00')
+    draw_rectangle(t, (x - 30) * scale, (y + 14) * scale, (width - 60) * scale, (height - 90) * scale, 90, 'black', '#7B3F00')
+    draw_rectangle(t, (x - 30) * scale, (y + 4) * scale, (width - 60) * scale, (height - 90) * scale, 90, 'black', '#7B3F00')
+    draw_rectangle(t, (x - 30) * scale, (y - 6) * scale, (width - 60) * scale, (height - 90) * scale, 90, 'black', '#7B3F00')
+    draw_rectangle(t, (x - 30) * scale, (y - 16) * scale, (width - 60) * scale, (height - 90) * scale, 90, 'black', '#7B3F00')
+    draw_rectangle(t, (x - 30) * scale, (y - 26) * scale, (width - 60) * scale, (height - 90) * scale, 90, 'black', '#7B3F00')
+    draw_circle(t, 0, (x - 15) * scale, (y - 66) * scale, 360 * scale, 20 * scale, 20, 'black', blade)
 
-
-    draw_diamond(t, x, (y + 280) * scale, side * scale, blade, 'black')
-    draw_trapezoid(t, x * scale,(y + 280) * scale, side * scale, blade, 'black', scale)
-    draw_trapezoid2(t, (x-30) * scale, (y + 280) * scale, side * scale, blade, 'black', scale)
-    draw_rectangle(t, (x - 65) * scale, (y + 24) * scale, width * scale, height * scale, 0, '#7B3F00', 'black')
-    draw_rectangle(t, (x + 35) * scale, (y + 24) * scale, (width -70) * scale, (height - 25) * scale, 90, '#7B3F00', 'black')
-    draw_rectangle(t, (x - 105) * scale, (y + 24) * scale, (width -70) * scale, (height - 25) * scale, 90, '#7B3F00', 'black')
-    draw_rectangle(t, (x - 30) * scale, (y + 14) * scale, (width -60) * scale, (height - 90) * scale, 90, '#7B3F00', 'black')
-    draw_rectangle(t, (x - 30) * scale, (y + 4) * scale, (width -60) * scale, (height - 90) * scale, 90, '#7B3F00', 'black')
-    draw_rectangle(t, (x - 30) * scale, (y - 6) * scale, (width -60) * scale, (height - 90) * scale, 90, '#7B3F00', 'black')
-    draw_rectangle(t, (x - 30) * scale, (y - 16) * scale, (width -60) * scale, (height - 90) * scale, 90, '#7B3F00', 'black')
-    draw_rectangle(t, (x - 30) * scale, (y - 26) * scale, (width -60) * scale, (height - 90) * scale, 90, '#7B3F00', 'black')
-    draw_circle(t, (x - 15) * scale, (y - 66) * scale, 20 * scale, blade, 'black')
-
-
-
-
-
-
-
-
-
+#draw_circle(t, tilt, x, y, ext, rad, step, pencolor, fillcolor):
 
 def draw_trapezoid(t, x, y, side, fillcolor, pencolor, scale):
     """
@@ -91,9 +82,8 @@ def draw_trapezoid(t, x, y, side, fillcolor, pencolor, scale):
     t.up()
 
 
-
-#t, 0, -120, 30,  100,    30, 90)
-#t, x, y, height, width, side, tilt
+# t, 0, -120, 30,  100,    30, 90)
+# t, x, y, height, width, side, tilt
 def draw_trapezoid2(t, x, y, side, fillcolor, pencolor, scale):
     """
     # Draws a side trapezoid (only used on the blade of the sword in coordination with draw_trapezoid)
@@ -107,7 +97,6 @@ def draw_trapezoid2(t, x, y, side, fillcolor, pencolor, scale):
     length1 = 200
     length2 = 16.2
     length3 = 226
-
 
     t.up()
     t.goto(x, y)
@@ -126,9 +115,10 @@ def draw_trapezoid2(t, x, y, side, fillcolor, pencolor, scale):
     t.up()
 
 
-#t, 0, -120, 30, 100, 30, 90)
-#t, x, y, height, width, side, tilt
-    
+# t, 0, -120, 30, 100, 30, 90)
+# t, x, y, height, width, side, tilt
+
+
 def draw_circle(t, tilt, x, y, ext, rad, step, pencolor, fillcolor):
     #Draws a circle, x, and y determine its start location, extent determines how much of the shape is drawn.
     t.setheading(tilt)
