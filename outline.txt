@@ -2,8 +2,33 @@ Game Name:
 
 Game Races: 
 Snowpeople 
+Class Traits
+Icy persuasion
++10 modifier in cold areas
+When defeating an opponent in a hot area, 10X10 pixel area becomes warm
+When defeating an opponent in a warm area, 10X10 pixel area becomes cold.
+Gift giving
+You can drop your spiritual attack power by 10 for 10 seconds to do an AOE of 3 DPS in a 10X10 pixel area for 10 seconds. 2 Minute cooldown
+Fire people
+Class Traits
+Fiery persuasion
++10 modifier in hot areas
+When defeating an opponent in a cold area, 10X10 pixel area becomes warm
+When defeating an opponent in a warm area, 10X10 pixel area becomes hot.
+Fiery consumption 
+You sacrifice 10 SP from your max SP permanently and change a warm area to a hot area 10X10 in size
 Owl people 
+Class traits
+Mind reading
+You are alerted any time an opponent has a sacred artifact, and what it is.(Not how powerful it is, nor its stats.)
+Flight
+You can fly for 30 seconds, 2 minute cool down
 leopard people 
+Class Traits
+Climbing affinity
+Can climb at 100% speed
+
+
 fish people 
 
 Game Classes:
