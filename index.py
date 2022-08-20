@@ -20,6 +20,7 @@ def game():
 
 
 def draw_scene(t, scale, blade):
+    draw_snowman(t, 5, 5, "white", 90, scale)
     draw_sword(t, 0, -120, 100, 30, 30, 90, 1, blade)
 
 
@@ -49,6 +50,16 @@ def draw_sword(t, x, y, height, width, side, tilt, scale, blade):
     draw_circle(t, 0, (x - 15) * scale, (y - 66) * scale, 360 * scale, 20 * scale, 20, 'black', blade)
 
 #draw_circle(t, tilt, x, y, ext, rad, step, pencolor, fillcolor):
+
+def draw_snowman(t, x, y, fillcolor, tilt, scale):
+    t.up()
+    t.goto(x,y)
+    t.setheading(tilt)
+    t.down()
+    draw_circle(t, 0, (x+1) * scale, (y+1) * scale, 360 * scale, 20 * scale, 20, "black", fillcolor)
+    draw_circle(t, 0, (x + 1) * scale, (y - 99) * scale, 360 * scale, 50 * scale, 20, "black", fillcolor)
+    draw_rectangle(t, (x - 25) * scale, (y + 30) * scale, 20 * scale, 50 * scale, 0, "black", "black" )
+
 
 def draw_trapezoid(t, x, y, side, fillcolor, pencolor, scale):
     """
