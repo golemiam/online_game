@@ -27,12 +27,23 @@ leopard people
 Class Traits
 Climbing affinity
 Can climb at 100% speed
-
-
+Furry hide
+Unaffected by temperature zones
 fish people 
+Class traits
+Swimming affinity
+Can swim at 150% speed
+Can fight in water at 150% speed
+Can create a water area. (Must dig a hole first, and fill water in carried by buckets)
 
 Game Classes:
 Christians
+Class Modifiers
+Born again:
+Once per day can do serve other move, adding 10 persuasion for 
+Scripture modifiers (collectable artifacts, completable via collection)
+
+
 Jews
 Muslims
 Zoroastrians
