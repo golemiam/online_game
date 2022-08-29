@@ -42,10 +42,49 @@ Class Modifiers
 Born again:
 Once per day can do serve other move, adding 10 persuasion for 
 Scripture modifiers (collectable artifacts, completable via collection)
-
-
+Old Testament
+Genesis
+Exodis
+Etc
+New Testament
+Matthew
+Mark
+Etc.
+Book of Mormon
+1 Nephi
+2 Nephi
+Etc
+Doctrine and Covenants
+1
+2
+Etc
+Pearl of Great Price
+Moses
+Abraham
+Etc
 Jews
-Muslims
+Class Modifiers
+Abrahamic lineage (Blood of the father Abraham)
+Bolstered religious confidence
+2 minute cooldown
+30 seconds + 5 resistance to religious persuasion.
+Scripture modifiers (collectable artifacts, completable via collection)
+Torah
+Genesis
+Exodis
+Etc
+Muslim	s
+Class Modifiers
+Faith war
+Can attack with weapon and attempt to kill enemy to persuade
+If enemy is killed with this they are automatically persuaded
+After killing in this manner you get a debuff to your persuasion - 10 for 30 minutes
+30 minute cooldown for use
+Scripture modifiers (collectable artifacts, completable via collection)
+Quran
+Book 1
+Book 2
+Etc.
 Zoroastrians
 
 
