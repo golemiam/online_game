@@ -1,3 +1,20 @@
+
+<!DOCTYPE html>
+<!--Powered with Bootstrap-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robert Platt Resume</title>
+    <col span="2" class="Rhead"><col><!--probably won't use-->
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><!--probably won't use-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> <!--probably won't use-->
+    <script src=""></script>
+</head>
+<body>
+
 THE FIRST BOOK OF MOSES
 CALLED
 GENESIS
@@ -65,4 +82,10 @@ God creates this earth and its heaven and all forms of life in six days—The cr
 
 30 And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for ameat: and it was so.
 
-31 And God saw every thing that he had made, and, behold, it was very agood. And the evening and the morning were the bsixth day.
+31 And God saw every thing that he had made, and, behold, it was very agood. And the evening and the morning were the sixth day.
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+</html>
